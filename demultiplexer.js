@@ -5,6 +5,9 @@
 // La salida es qseq
 //
 // El argumento solo sirve como prefijo para los archivos de salida
+//
+// Código sujeto a licencia GPLv3 (ver archivo COPYING)
+// Copyright (c) 2012, by Alberto de Luis <alberto@deluis.es>
 
 var fs  = require('fs');
 var ee = require('events').EventEmitter;
