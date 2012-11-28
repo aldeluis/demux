@@ -1,7 +1,10 @@
 #!/usr/local/bin/node
 // corta el adaptador
 // entrada por stdin.
-// el argumento es la secuencia del adaptador. 
+// el argumento es la secuencia del adaptador.
+//
+// Código sujeto a licencia GPLv3 (ver archivo COPYING)
+// Copyright (c) 2012, by Alberto de Luis <alberto@deluis.es>
 
 //require("v8-profiler");
 fs=require('fs');
