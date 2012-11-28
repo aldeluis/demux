@@ -1,7 +1,10 @@
 #!/usr/local/bin/node
-// cuenta nucleotidos por posición e imprime la combinación más frecuente
-// entrada por stdin o por archivo de texto. La secuencia de un adaptador
-// por linea, por ejemplo la salida de grep -o "AGATCG.*" 
+// Cuenta nucleotidos por posición e imprime la combinación más frecuente
+// Entrada por stdin o por archivo de texto. Una secuencia de adaptador
+// parcial por linea, por ejemplo la salida de grep -o "AGATCG.*" 
+//
+// Código sujeto a licencia GPLv3 (ver archivo COPYING)
+// Copyright (c) 2012, by Alberto de Luis <alberto@deluis.es>
 
 fs=require('fs');
 
